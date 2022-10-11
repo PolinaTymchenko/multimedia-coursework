@@ -1,0 +1,25 @@
+{
+  "name": "multimedia-coursework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel src/pages/index.html --open --port 3333"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaTymchenko/multimedia-coursework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaTymchenko/multimedia-coursework/issues"
+  },
+  "homepage": "https://github.com/PolinaTymchenko/multimedia-coursework#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
