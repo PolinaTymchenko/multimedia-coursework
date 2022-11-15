@@ -1,0 +1,79 @@
+.hobbies {
+    &__container {
+        background-color: rgb(53, 51, 59);
+        padding-top: 100px;
+        -webkit-box-shadow: 0px 0px 39px 4px rgba(0, 0, 0, 0.54);
+        box-shadow: 0px 0px 39px 4px rgba(0, 0, 0, 0.54);
+
+        @media screen and (min-width: 768px) {
+            padding-top: 140px;
+        }
+
+        @media screen and (min-width: 1366px) {
+            padding-top: 180px;
+        }
+    }
+
+    &__header {
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    &__description {
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+        background-color: white;
+        overflow: hidden;
+        text-align: center;
+
+        @media screen and (min-width: 768px) {
+            width: 33.33%;
+            margin-bottom: 30px;
+        }
+
+        @media screen and (min-width: 1366px) {
+            margin-bottom: 40px;
+        }
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            .hobbies__text {
+                transform: translateY(0);
+            }
+        }
+    }
+
+    &__text {
+        @include animation (transform);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.6);
+        transform: translateY(-100%);
+    }
+
+    &__title {
+        position: absolute;
+        display: block;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+}

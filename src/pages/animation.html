@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="Image/x-icon" href="../images/UniversityOfSussexLogo.ico" rel="icon">
+    <!-- styles -->
     <link rel="stylesheet" href="../sass/main.scss">
+    <link rel="stylesheet" href="../owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/owl.theme.default.min.css">
     <title>Tymchenko Polina</title>
 </head>
 
-<body>
+<body class="animation-body">
     <header class="page-header" id="header">
         <div class="container page-header__container">
             <nav class="page-header__nav">
                 <div class="page-header__wrapper">
-                    <a href="#program" class="page-header__link page-header__link--logo">
+                    <a href="https://www.sussex.ac.uk/" class="page-header__link page-header__link--logo">
                         <img src="../images/UniversityOfSussexLogo.png" alt="Uni of Sussex Logo">
                     </a>
                     <ul class="page-header__links">
@@ -39,7 +42,14 @@
             </nav>
         </div>
     </header>
-
+    <main>
+        <div class="audioplay container">
+            <audio class="audioplay__audio" autoplay src="../animation.mp3"></audio>
+        </div>
+    </main>
+    <!-- scripts -->
+    <script src="../js/raphael.min.js"></script>
+    <script src="../js/animation.js"></script>
     <script src="../index.js"></script>
 </body>
 

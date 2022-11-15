@@ -1,0 +1,40 @@
+.video {
+    &-section {
+        padding-top: 100px;
+
+        @media screen and (min-width: 768px) {
+            padding-top: 140px;
+        }
+
+        @media screen and (min-width: 1366px) {
+            padding-top: 180px;
+        }
+    }
+
+    &__header {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+    }
+
+    &__video {
+        display: block;
+        margin: 0 auto;
+
+        max-width: 325px;
+
+        @media screen and (min-width: 768px) {
+            max-width: 768px;
+        }
+
+        @media screen and (min-width: 1366px) {
+            max-width: 1366px;
+        }
+
+        -webkit-box-shadow: 0px 0px 42px 22px #9393BE;
+        box-shadow: 0px 0px 42px 22px #9393BE;
+    }
+}

@@ -1,60 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="Image/x-icon" href="../images/UniversityOfSussexLogo.ico" rel="icon">
-    <link rel="stylesheet" href="../sass/main.scss">
-    <link rel="stylesheet" href="../owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="../owlcarousel/owl.theme.default.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="../owlcarousel/owl.carousel.min.js"></script>
-    <title>Tymchenko Polina</title>
-</head>
-<body>
-    <header class="page-header" id="header">
-        <div class="container page-header__container">
-            <nav class="page-header__nav">
-                <div class="page-header__wrapper">
-                    <a href="#program" class="page-header__link page-header__link--logo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="Image/x-icon" href="../images/UniversityOfSussexLogo.ico" rel="icon">
+        <!-- styles -->
+        <link rel="stylesheet" href="../sass/main.scss">
+        <link rel="stylesheet" href="../owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../owlcarousel/owl.theme.default.min.css">
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="../owlcarousel/owl.carousel.min.js"></script>
+        <script src="../index.js"></script>
+        <script src="../js/owlCarousel.js"></script>
+        <title>Tymchenko Polina</title>
+    </head>
+    <body>
+        <header class="page-header" id="header">
+            <div class="container page-header__container">
+                <nav class="page-header__nav">
+                    <div class="page-header__wrapper">
+                        <a href="https://www.sussex.ac.uk/" class="page-header__link page-header__link--logo">
+                            <img src="../images/UniversityOfSussexLogo.png" alt="Uni of Sussex Logo">
+                        </a>
+                        <ul class="page-header__links">
+                            <li class="page-header__item page-header__item--active">
+                                <a href="../pages/welcome.html" class="page-header__link">welcome</a>
+                            </li>
+                            <li class="page-header__item">
+                                <a href="../pages/video.html" class="page-header__link">video</a>
+                            </li>
+                            <li class="page-header__item">
+                                <a href="../pages/hobbies.html" class="page-header__link">hobbies</a>
+                            </li>
+                            <li class="page-header__item">
+                                <a href="../pages/coursework.html" class="page-header__link">coursework</a>
+                            </li>
+                            <li class="page-header__item">
+                                <a href="../pages/animation.html" class="page-header__link">animation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1 class="welcome__title">University of Sussex <br>
+                <span>review</span></h1>
+            <section class="slider-section">
+                <div class="owl-carousel">
+                    <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9576.JPG"
+                            alt="Sussex View">
+                    </div>
+                    <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9575.JPG" alt="Sussex View">
+                    </div>
+                    <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9576.JPG" alt="Sussex View">
+                    </div>
+                    <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9575.JPG" alt="Sussex View">
+                    </div>
+                    <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9576.JPG" alt="Sussex View">
+                    </div>
+                    <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9575.JPG" alt="Sussex View">
+                    </div>
+                </div>
+            </section>
+            <section class="welcome-section" id="welcome">
+                <div class="welcome container">
+                    <h2 class="welcome__header">Welcome Page</h2>
+                    <p class="welcome__text"> Hello dear guest!<br>
+                        On this page I will tell you about some useful things I have found out about University of Sussex<br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio consequatur esse ipsam aliquid modi blanditiis, temporibus tempora qui, quia nam animi itaque pariatur accusantium eveniet praesentium omnis voluptate illum consequuntur consectetur, incidunt sapiente voluptatem! Temporibus incidunt dignissimos nesciunt voluptate quibusdam tenetur? Eaque quos placeat, expedita aliquid aspernatur modi ipsam quibusdam?</p>
+                </div>
+            </section>
+            <section class="registration-section" id="registration">
+                <div class="container registration__container">
+                    <h3 class="registration__title">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </h3>
+
+                    <p class="registration__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo expedita, nam quo fuga doloribus perferendis officia. Harum, eum nemo.
+                    </p>
+
+                    <form class="registration__form">
+                        <div class="registration__field">
+                            <label for="registration-name" class="registration__label"></label>
+
+                            <input type="text" name="name" id="registration-name" class="registration__input" placeholder="name" />
+                        </div>
+
+                        <div class="registration__field">
+                            <label for="registration-tel" class="registration__label"></label>
+
+                            <input type="tel" name="name" id="registration-tel" class="registration__input"
+                                placeholder="phone number" />
+                        </div>
+
+                        <button type="submit" class="registration__button button">Contact me</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="section pre-footer" id="contacts">
+                <div class="container pre-footer__container">
+                    <a href="https://www.sussex.ac.uk/" class="pre-footer__logo">
                         <img src="../images/UniversityOfSussexLogo.png" alt="Uni of Sussex Logo">
                     </a>
-                    <ul class="page-header__links">
-                        <li class="page-header__item page-header__item--active">
-                            <a href="../pages/welcome.html" class="page-header__link">welcome</a>
-                        </li>
-                        <li class="page-header__item">
-                            <a href="../pages/video.html" class="page-header__link">video</a>
-                        </li>
-                        <li class="page-header__item">
-                            <a href="../pages/hobbies.html" class="page-header__link">hobbies</a>
-                        </li>
-                        <li class="page-header__item">
-                            <a href="../pages/coursework.html" class="page-header__link">coursework</a>
-                        </li>
-                        <li class="page-header__item">
-                            <a href="../pages/animation.html" class="page-header__link">animation</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="owl-carousel">
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9567.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9568.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9569.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9570.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9571.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9573.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9574.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9575.JPG" alt="Sussex View"> </div>
-            <div class="owl-carousel__item"> <img class="owl-carousel__image" src="../images/IMG_9576.JPG" alt="Sussex View"> </div>
-        </div>
-    </main>
+                    <div class="pre-footer__contacts">
+                        <a href="tel:38000000000" class="pre-footer__tel">
+                            <svg class="pre-footer__tel-icon" width="20px" height="19.21px">
+                                <use href="../images/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                            +44 (0) 0101 010101
+                        </a>
 
-    <script src="../index.js"></script>
-</body>
+                        <a href="#" class="pre-footer__inst">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="footer">
+                <div class="container footer__container">
+                    <p class="footer__text"><span>&#64;</span>All rights reserved, 2022</p>
+                </div>
+            </section>
+        </footer>
+    </body>
 </html>

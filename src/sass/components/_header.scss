@@ -1,12 +1,12 @@
 .page-header {
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 999;
     height: 90px;
     padding: 15px;
     background-color: rgb(192, 192, 248);
-    border-bottom: 1px solid rgba(180, 180, 180, 0.61);
-    -webkit-box-shadow: 0px 11px 14px 5px rgba(180, 180, 180, 0.61);
-    box-shadow: 0px 11px 14px 5px rgba(180, 180, 180, 0.61);
+    border-bottom: 1px solid rgba(53, 51, 59, 0.8);
 
     @media screen and (min-width: 768px) {
         height: 120px;
@@ -54,7 +54,7 @@
         }
 
         &--active {
-           &::after {
+            &::after {
                 content: '';
                 position: absolute;
                 z-index: 1000;
