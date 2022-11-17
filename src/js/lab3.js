@@ -1,5 +1,3 @@
-import Raphael from '../js/raphael.min';
-
 window.onload = function () {
     var paper = new Raphael(0, 0, 1300, 600);
     var backGround = paper.rect(0, 0, 1300, 600);

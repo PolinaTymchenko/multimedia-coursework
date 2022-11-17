@@ -1,4 +1,3 @@
-import Raphael from '../js/raphael.min';
 
 window.onload = function () {
     const paper = new Raphael(0, 0, 1300, 600);
