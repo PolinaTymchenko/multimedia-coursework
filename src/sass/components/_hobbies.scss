@@ -24,6 +24,14 @@
         color: white;
     }
 
+    &__hint {
+        margin: 20px auto;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+    }
+
     &__list {
         display: flex;
         flex-wrap: wrap;
