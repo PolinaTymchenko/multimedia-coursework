@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "parcel src/pages/welcome.html --open --port 3333"
+    "watch": "parcel src/pages/index.html --open --port 3333"
   },
   "repository": {
     "type": "git",
